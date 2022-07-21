@@ -3,9 +3,11 @@
   <h2>{{app.name}}</h2>
   <p style="font-style: italic">von {{authors}} ({{stufe}})</p>
   <p>{{app.description}}</p>
+  <p><Button @click="clickImage()" label="Start"/></p>
 </template>
 
 <script>
+import Button from"primevue/button";
 export default{
   props: {
     app: Object
@@ -39,6 +41,9 @@ export default{
     clickImage(){
       this.$emit('playapp',this.app);
     }
+  },
+  components: {
+    Button
   }
 };
 </script>

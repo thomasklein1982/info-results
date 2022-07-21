@@ -177,6 +177,14 @@ export default [
         url: "https://daviser.glitch.me/Daviser.htm",
         authors: ["David","Max"],
         description: "Farme Holz, Stein und Eisen, um dir Ausrüstung zu kaufen, die du für das Überleben in diesem Open-World-Spiel brauchst."
+      },
+      {
+        name: "Time Escape",
+        image: "time-escape.png",
+        stufe: "E",
+        url: "https://time-escape.glitch.me/",
+        authors: ["Julian"],
+        description: "Du erwachst an einem fremden Ort ohne Gedächtnis. Kannst du herausfinden, was passiert ist?"
       },    
     ]
   },
