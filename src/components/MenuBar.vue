@@ -59,7 +59,7 @@ export default {
   },
   methods: {
     openExternalLink(){
-      window.open("https://"+this.playingApp.url,"_blank")
+      window.open(this.playingApp.url,"_blank")
     }
   },
   components: {

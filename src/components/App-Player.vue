@@ -21,7 +21,7 @@ export default{
   computed: {
     url(){
       this.loading=true;
-      return "https://"+this.app.url+"?p="+this.param;
+      return this.app.url+"?p="+this.param;
     }
   },
   methods: {
