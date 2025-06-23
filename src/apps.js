@@ -11,7 +11,240 @@ export default [
           authors: ["Ava", "Helena"],
           description: "Löse die Rätsel und entkomme Deinen Entführern!"
       }, 
-      
+      {
+          name: "sustainABLE",
+          image: "sustainable.png",
+          stufe: 9,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/CHED/sustainABLE.html",
+          authors: ["Clara", "Emma"],
+          description: "Bestimme den CO2-Fußabdruck deiner Brotdose."
+      }, 
+      {
+          name: "AETAS 1758",
+          image: "aetas.png",
+          stufe: 9,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/JL/AETAS1758.html",
+          authors: ["Jonathan"],
+          description: "Baue eine blühende Siedlung."
+      },
+      {
+          name: "Politician Simulator",
+          image: "polisim.png",
+          stufe: 9,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/JL/Politician%20Simulator.html",
+          authors: ["Jonathan"],
+          description: "Gründe deine Partei. Werde Bundeskanzler. Erobere die Welt?"
+      },
+      {
+          name: "Penalty Shooter",
+          image: "penalty.png",
+          stufe: 9,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/JGBR/PenaltyShooter.html",
+          authors: ["Ben","Johan"],
+          description: "Wie viele Freistöße kannst du verwandeln?"
+      },
+      {
+          name: "Brainrot Escape Room",
+          image: "brainrot.png",
+          stufe: 9,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/MK/BrainrotEscapeRoom.html",
+          authors: ["Malik"],
+          description: "Wie schnell schaffst du es durch das Labyrinth?"
+      },
+      {
+          name: "Dino Rush Unlimited",
+          image: "dinorush.png",
+          stufe: 9,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/OOEK/DinoRushUnlimited.html",
+          authors: ["Olek","Elias"],
+          description: "Renne um dein (Saurier-)Leben!"
+      },
+      {
+          name: "Ride hard!",
+          image: "ridehard.png",
+          stufe: 10,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/AP/RideHard.html",
+          authors: ["Asher"],
+          description: "Skate durch verschiedene Levels, löse Rätsel, durchbrich die Wände!"
+      },
+      {
+          name: "Skeleton's Escape",
+          image: "skeletonsescape.png",
+          stufe: 10,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/AW/SkeletonsEscape.html",
+          authors: ["Antonia"],
+          description: "Untot, aber cute!"
+      },
+      {
+          name: "Alice vs. Windmill",
+          image: "alicewindmill.png",
+          stufe: 10,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/EP/AliceVsWindmill.html",
+          authors: ["Emely"],
+          description: "Wähle deine Seite und kämpfe für (oder gegen) die Windkraft!"
+      },
+      {
+          name: "Unterwasserwelt",
+          image: "unterwasserwelt.png",
+          stufe: 10,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/HR/Unterwasserwelt.html",
+          authors: ["Hannah"],
+          description: "Sammle Münzen und weiche den Mülltüten aus!"
+      },
+      {
+          name: "Super Ente",
+          image: "superente.png",
+          stufe: 10,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/MBKW/SuperEnte.html",
+          authors: ["Klara", "Milena"],
+          description: "Bringe die Entenfamilie wieder zusammen."
+      },
+      {
+          name: "Chicken",
+          image: "chicken.png",
+          stufe: 10,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/QC/Chicken.html",
+          authors: ["Qianhui"],
+          description: "Jump and run across randomly generated platforms."
+      },
+      {
+          name: "Bienenspiel",
+          image: "bienenspiel.png",
+          stufe: 10,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/RAJM/Bienenspiel.html",
+          authors: ["Rina","Jula"],
+          description: "Sammle Blumen, erhalte Honig und werde zur Bienenkönigin"
+      },
+      {
+          name: "Backspaß",
+          image: "backspass.png",
+          stufe: 10,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/SH/Backspass.html",
+          authors: ["Svenja"],
+          description: "Sammle alle Zutaten für dein Rezept. Aber Vorsicht: Nicht alle Zutaten sind gut!"
+      },
+      {
+          name: "Fantastische Welten",
+          image: "fantastischewelten.png",
+          stufe: 10,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/SMJBAR/Welten.html",
+          authors: ["Qianhui"],
+          description: "Betrete vier geheimnisvolle Welten voller Abenteuer!"
+      },
+      {
+          name: "Stadtabenteuer",
+          image: "stadtabenteuer.png",
+          stufe: 10,
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/WU/projekte/2024/VG/Stadtabenteuer.html",
+          authors: ["Viktoria"],
+          description: "Erkunde die Stadt, sammle Kirschen und esse ein Eis!"
+      },
+      {
+          name: "Alfys Abenteuer",
+          image: "alfysabenteuer.png",
+          stufe: "E",
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/Programmierung/projekte/2025/AB/AlfysAbenteuer.html",
+          authors: ["Alena"],
+          description: "Hilf Alfy, wieder nach Hause zu kommen."
+      },
+      {
+          name: "Pushy",
+          image: "pushy.png",
+          stufe: "E",
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/Programmierung/projekte/2025/AH/Pushy.html",
+          authors: ["Toni"],
+          description: "Spiele dich mit Pushy durch drei clevere Levels."
+      },
+      {
+          name: "Blockblast",
+          image: "blockblast.png",
+          stufe: "E",
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/Programmierung/projekte/2025/CR/Blockblast.html",
+          authors: ["Carla"],
+          description: "Wie viele Reihen schaffst du?"
+      },
+      {
+          name: "Krtek - no mission impossible",
+          image: "krtek.png",
+          stufe: "E",
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/Programmierung/projekte/2025/JR/Krtek.html",
+          authors: ["Josephina"],
+          description: "Sammle die Items für deine Freunde, aber pass' auf die Baumstämme auf!"
+      },
+      {
+          name: "Keksklicker",
+          image: "keksklicker.png",
+          stufe: "E",
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/Programmierung/projekte/2025/JS/Keksklicker.html",
+          authors: ["Johannes"],
+          description: "Klick den Keks, kaufe Upgrades, klick den Keks, kaufe Upgrades, klick ..."
+      },
+      {
+          name: "The Little Witch's Garden",
+          image: "witchgarden.png",
+          stufe: "E",
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/Programmierung/projekte/2025/LH/LittleWitchsGarden.html",
+          authors: ["Lena"],
+          description: "Lege deinen eigenen Hexengarten an und braue magische Elixiere."
+      },
+      {
+          name: "Grimoire of the Lost One",
+          image: "grimoire.png",
+          stufe: "E",
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/Programmierung/projekte/2025/MR/Grimoire.html",
+          authors: ["Marie"],
+          description: "Erkunde eine offene Spielwelt und schließe Quests ab."
+      },
+      {
+          name: "One of us is lying",
+          image: "oneofusislying.png",
+          stufe: "E",
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/Programmierung/projekte/2025/NS/OneOfUsIsLying.html",
+          authors: ["Naina"],
+          description: "Simon ist tot! Wer war der Täter und vor allem: Warum musste Simon sterben?"
+      },
+      {
+          name: "SnailQuest",
+          image: "snailquest.png",
+          stufe: "E",
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/Programmierung/projekte/2025/RR/Game.html",
+          authors: ["Robin"],
+          description: "Sammle Batterien um schneller zu werden. Löse dann die Rätsel!"
+      },
+      {
+          name: "Lernkarten",
+          image: "lernkarten.png",
+          stufe: "E",
+          platform: "JavaApp",
+          url: "https://thomaskl.uber.space/Informatik/Programmierung/projekte/2025/ZM/Lernen.html",
+          authors: ["Zoé"],
+          description: "Lege deine eigenen Lernkarten an und lass' dich von der App abfragen."
+      },
     ]
   },
   {

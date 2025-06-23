@@ -8,7 +8,13 @@ export default defineConfig({
     vue(),
     VitePWA(
       {
-        includeAssets: ['favicon.svg','favicon.ico','robots.txt','apple-touch-icon.png'],
+        registerType: 'prompt',
+        injectRegister: true,
+
+        pwaAssets: {
+          disabled: false,
+          config: true,
+        },
         manifest: {
           name: 'Informatik-2022',
           short_name: "Info-2022",
@@ -26,7 +32,13 @@ export default defineConfig({
               type: "image/png"
             }
           ]
-        }
+        },
+        workbox: {
+          globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,eot,ttf,woff,wasm}'],
+          cleanupOutdatedCaches: true,
+          clientsClaim: true,
+          maximumFileSizeToCacheInBytes: 3000000,
+        },
       }
     )
   ],
