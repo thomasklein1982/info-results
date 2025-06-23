@@ -1,7 +1,7 @@
 <template>
   <img style="width: 100%; cursor: pointer" :src="src" @click="clickImage()">
   <h2>{{app.name}}</h2>
-  <p style="font-style: italic">von {{authors}} ({{stufe}})</p>
+  <p style="font-style: italic">von {{authors}} ({{stufe}}, <a :href="linkPlatform" target="_blank">{{ app.platform }}</a>)</p>
   <p>{{app.description}}</p>
   <p><Button @click="clickImage()" label="Start"/></p>
 </template>
@@ -9,6 +9,7 @@
 <script>
 import Button from"primevue/button";
 export default{
+  emits: ["playapp"],
   props: {
     app: Object
   },
@@ -27,6 +28,13 @@ export default{
       //const url = new URL('/img/'+this.app.image, import.meta.url)
       let url='/Apps/info-results/img/'+this.app.image;
       return url;
+    },
+    linkPlatform(){
+      if(this.app.platform==="JSEdit"){
+        return "https://thomaskl.uber.space/Apps/js-edit/";
+      }else{
+        return "https://thomaskl.uber.space/Apps/java-app/";
+      }
     },
     authors(){
       if(this.app.authors.length===1){
